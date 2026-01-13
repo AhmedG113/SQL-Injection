@@ -1,0 +1,9 @@
+CREATE TABLE users(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT,
+  password TEXT
+);
+
+INSERT INTO users(username, password)
+VALUES ('@dmindex021', '7h3P4ssw0rdC4nn07B3Gu3ss3d!123');
+
